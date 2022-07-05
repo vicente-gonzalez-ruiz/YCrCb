@@ -5,6 +5,25 @@
 
 \tableofcontents
 
+\section{The $\text{YCrCb}$ color domain}
+$\text{YCrCb}$ is a \emph{luma}-based
+(luminance-based\footnote{Luminance can be considered as the intensity
+part of a viual stimuli.} color domain. This domain rely on the idea
+of separating the luminance coefficients (Y) from two \emph{chroma}
+coefficients (red and blue in the case of $\text{YCrCb}$). After using
+the transform, most of the energy will be concentrated in the luma
+($\text{Y}$) subband.
+
+The $\text{YCrCb}$ color model can be considered the digital version
+of the \href{https://en.wikipedia.org/wiki/YUV}{$\text{YUV}$ (analog)
+  color model}, and in some way can be used to maintain the
+compatibility with legacy black and white systems is maintained while
+at the same time the bandwidth of the signal can be optimized by using
+diﬀerent transmission bandwidths for the brightness and the chroma
+components.\footnote{Notice, however, that in the digital world
+bandwidth savings are equivalent to reduce the sampling
+rate.}~\cite{burger2016digital}
+
 \section{The $\text{RGB} \Leftrightarrow \text{YCrCb}$ transform}
 %{{{ 
 
